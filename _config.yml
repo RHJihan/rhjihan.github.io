@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 
-lsi: false
+lsi: true
 safe: true
 source: [your repo's top level directory]
 incremental: false
