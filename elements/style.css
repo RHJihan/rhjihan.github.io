@@ -405,7 +405,7 @@ a:hover small {
 }
 
 .wrapper {
-    width: 1080px;
+    width: 1000px;
     margin: 0 auto
 }
 
@@ -458,7 +458,7 @@ img {
 }
 
 header {
-    width: 500px;
+    width: 380px;
     float: left;
     -webkit-font-smoothing: subpixel-antialiased
 }
