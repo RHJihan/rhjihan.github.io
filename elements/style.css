@@ -542,7 +542,7 @@ screen and (max-width: 500px) {
     }
     header li,
     header ul li+li+li {
-        width: 100%
+        width: 99%
     }
 }
 
