@@ -478,10 +478,7 @@ small {
 }
 
 hr {
-    border: 0;
-    background: #e5e5e5;
-    height: 1px;
-    margin: 0 0 20px
+    border: 1px solid #ffffff;
 }
 
 @media print,
@@ -501,7 +498,7 @@ screen and (max-width: 960px) {
         padding-right: 320px
     }
     section {
-        border: 1px solid #e5e5e5;
+        border: 1px solid grey;
         border-width: 1px 0;
         padding: 20px 0;
         margin: 0 0 20px
