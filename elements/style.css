@@ -281,11 +281,12 @@
 }
 
 body {
+    background-image: url("bg.png");
+    background-attachment: fixed;
     background-color: #262626;
     color: #ffffff;
     font-family: 'Coda';
     font-size: 20px;
-    "
 
 }
 
@@ -405,6 +406,7 @@ a:hover small {
 }
 
 .wrapper {
+    padding-top: 10px;
     width: 1000px;
     margin: 0 auto
 }
