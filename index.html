@@ -1,104 +1,198 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
    <head>
-      <title>About Me – Jihan</title>
+      <title>Possible reasons for my unavailability in Messenger</title>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="Description" content="Don't know me? This page is the right place to find information about me.">
+      <meta name="Description" content="Did you message me in Messenger and get an automated-reply? Find out some possible causes for happening this.">
       <meta name="author" content="Md. Rifat Hasan Jihan">
-      <meta name="keywords" content="rhjihan, Md. Rifat Hasan Jihan, portfolio">
+      <meta name="keywords" content="rhjihan, portfolio, messenger, facebook, unavailable">
       <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Coda&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
       <script src="https://kit.fontawesome.com/f83b4b844c.js" crossorigin="anonymous"></script>
-      <meta property="og:title" content="Portfolio of Md. Rifat Hasan Jihan" />
-      <meta property="og:description" content="Don't know me? This page is the right place to find information about me." />
+      <meta property="og:title" content="Possible reasons for my unavailability in Messenger">
+      <meta property="og:description" content="Did you message me in Messenger and get an automated-reply? Find out some possible causes for happening this.">
       <meta property="og:locale" content="en_US" />
-      <meta property="og:locale:alternate" content="bn_BD" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://rhjihan.github.io/elements/thumbnail.jpg" />
+      <meta property="og:image" content="https://rhjihan.github.io/elements/info_thumbnail.jpg" />
       <meta property="og:image:width" content="2400" />
       <meta property="og:image:height" content="1260" />
       <meta name="twitter:card" content="summary_large_image">
       <meta name="twitter:creator" content="@RH_Jihan">
-      <meta name="twitter:title" content="Portfolio of Md. Rifat Hasan Jihan">
-      <meta name="twitter:description" content="Don't know me? This page is the right place to find information about me.">
-      <meta name="twitter:image" content="https://rhjihan.github.io/elements/thumbnail.jpg">
-      <link rel="canonical" href="https://rhjihan.github.io/">
-      <meta property="og:url" content="https://rhjihan.github.io/">
-      <meta property="og:site_name" content="About Me – Jihan">
-      <link rel="shortcut icon" href="elements/rhjihan.ico">
+      <meta name="twitter:title" content="Possible reasons for my unavailability in Messenger">
+      <meta name="twitter:description" content="Did you message me in Messenger and get an automated-reply? Find out some possible causes for happening this.">
+      <meta name="twitter:image" content="https://rhjihan.github.io/elements/info_thumbnail.jpg">
+      <link rel="canonical" href="https://rhjihan.github.io/unavailable.html">
+      <meta property="og:url" content="https://rhjihan.github.io/unavailable.html">
+      <meta property="og:site_name" content="Possible reasons for my unavailability in Messenger">
+      <link rel="shortcut icon" href="elements/exclamation.ico">
       <link rel="stylesheet" href="elements/style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>     
+      <script>
+         $(function() {
+           $('#toggle-event').change(function() {
+              document.body.className = $(this).data($(this).prop("checked").toString());
+           });   
+         });
+      </script>
+      <style>
+         .marquee {
+         margin-bottom: 5px;
+         color:grey;
+         font-size: 15px;
+         white-space: nowrap;
+         overflow: hidden;
+         box-sizing: border-box;
+         }
+         .marquee p {
+         display: inline-block;
+         padding-left: 100%;
+         animation: marquee 30s linear infinite;
+         }
+         @keyframes marquee {
+         0%   { transform: translate(0, 0); }
+         100% { transform: translate(-100%, 0); }
+         }
+         body.bn :lang(en) {
+         display: none;
+         }
+         body.en :lang(bn){
+         display: none;
+         }
+         .switch {
+         position: relative;
+         display: inline-block;
+         width: 60px;
+         height: 34px;
+         }
+         .switch input { 
+         opacity: 0;
+         width: 0;
+         height: 0;
+         }
+         .slider {
+         position: absolute;
+         cursor: pointer;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         background-color: #fcba03;
+         -webkit-transition: .4s;
+         transition: .4s;
+         border-radius: 34px;
+         }
+         .slider:before {
+         position: absolute;
+         text-align: center;
+         font-size: 10px;
+         color: black;
+         content: "en";
+         height: 26px;
+         width: 26px;
+         left: 4px;
+         bottom: 4px;
+         background-color: white;
+         -webkit-transition: .4s;
+         transition: .4s;
+         border-radius: 50%;
+         }
+         input:checked + .slider {
+         background-color: #fcba03;
+         }
+         input:focus + .slider {
+         box-shadow: 0 0 1px #2196F3;
+         }
+         input:checked + .slider:before {
+         -webkit-transform: translateX(26px);
+         -ms-transform: translateX(26px);
+         transform: translateX(26px);
+         color: black;
+         content: "bn";
+         }
+      </style>
    </head>
-   <body>
-      <div class="wrapper">
-         <header>
-            <img src="https://avatars0.githubusercontent.com/u/31377578?s=400&u=f7f3b922dce7bc637261cbd715c1ad82c47705d2" alt="front facing photo of Jihan" class="image" width="200" height="200"><br>
-            <h1 style="font-family: 'Bree Serif', serif; font-size: 28px;"><a href="https://rhjihan.github.io/">Md. Rifat Hasan Jihan</a></h1>
-            <p class="para" style="font-family: shurjo, sans-serif; margin-top: -10px; margin-bottom: 15px; font-size: 18px;">মো. রিফাত হাসান জিহান</p>
-            <p class="para" style="color: #ffffff; margin-top: -10px; margin-bottom: 5px; font-size: 15px;">Alias: <a class="alias" target="_blank" href="http://www.google.com/search?q=RHJihan">RHJihan</a></p>
-            <p class="para" style="color: #ffffff; margin-top:-5px; margin-bottom: 5px; font-size: 15px;">Email: <a class="alias" target="_blank" href="mailto:rhjihan@outlook.com">rhjihan@outlook.com</a></p>
-            <p class="para" style="padding-left: 50px; margin-top: -5px; margin-bottom: 5px; font-size: 15px;"><a class="pgp" href="https://rhjihan.000webhostapp.com/files/download_public_key.php"><i class="fa fa-download" style="font-size:14px; position: relative; top: -2px;">&nbsp;</i>&nbsp;PGP public key</a></p>
-            <p class="para" style="margin-top: -5px; margin-bottom: 5px; font-size: 15px;">Current city: <span class="city"><a class="grey" target="_blank" href="https://en.wikipedia.org/wiki/Khulna">Khulna</a></span></p>
-            <p class="para" style="margin-top: -5px; margin-bottom: 5px; font-size: 15px;">Hometown: <span class="city"><a class="grey" target="_blank" href="https://en.wikipedia.org/wiki/Rangpur,_Bangladesh">Rangpur</a></span></p>
-            <hr>
-            <p style="text-align:center;"><b>Find me on</b></p>
-            <div style="width: 100%; display: table;">
-               <div style="display: table-row">
-                  <div style="width: 190px; display: table-cell;">
-                     <ul class="fa-ul">
-                        <li class="list"><span class="fa-li"><i class="fab fa-facebook-square"></i></span><a class="item" target="_blank" href="https://www.facebook.com/RHJihan/">&nbsp;Facebook</a></li>
-                        <li class="list"><span class="fa-li"><i class="fab fa-linkedin"></i></span><a class="item" target="_blank" href="https://www.linkedin.com/in/rhjihan/">&nbsp;LinkedIn</a></li>
-                        <li class="list"><span class="fa-li"><i class="fab fa-researchgate"></i></span><a class="item" target="_blank" href="https://www.researchgate.net/profile/Md_Rifat_Hasan_Jihan">&nbsp;ResearchGate</a></li>
-                        <li class="list"><span class="fa-li"><i class="fab fa-twitter-square"></i></span><a class="item" target="_blank" href="https://twitter.com/RH_Jihan">&nbsp;Twitter</a></li>
-                        <li class="list"><span class="fa-li"><i class="fas fa-cube"></i></span><a class="item" target="_blank" href="https://grabcad.com/md.rifat.hasan.jihan-1">&nbsp;GrabCAD</a></li>
-                        <li class="list"><span class="fa-li"><i class="fab fa-reddit-square"></i></span><a class="item" target="_blank" href="https://www.reddit.com/user/RHJihan">&nbsp;Reddit</a></li>
-                        <li class="list"><span class="fa-li"><i class="fab fa-behance-square"></i></span><a class="item" target="_blank" href="https://www.behance.net/RHjihan">&nbsp;Behance</a></li>
-                     </ul>
-                  </div>
-                  <div style="display: table-cell;">
-                     <ul class="fa-ul">
-                        <li class="list"><span class="fa-li"><i class="fab fa-github-square"></i></span><a class="item" target="_blank" href="https://github.com/RHJihan">&nbsp;GitHub</a></li>
-                        <li class="list"><span class="fa-li"><i class="fab fa-ubuntu"></i></span><a class="item" target="_blank" href="https://askubuntu.com/users/722513/rhjihan">&nbsp;Ask Ubuntu</a></li>
-                        <li class="list"><span class="fa-li"><i class="fas fa-chess-knight"></i></span><a class="item" target="_blank" href="https://www.chess.com/member/rh_jihan">&nbsp;Chess.com</a></li>
-                        <li class="list"><span class="fa-li"><i class="fab fa-quora"></i></span><a class="item" target="_blank" href="https://bn.quora.com/profile/Rifat-Hasan-Jihan">&nbsp;Quora</a></li>
-                        <li class="list"><span class="fa-li"><i class="fab fa-wikipedia-w"></i></span><a class="item" target="_blank" href="https://bn.wikipedia.org/s/feah">&nbsp;Wikipedia</a></li>
-                        <li class="list"><span class="fa-li"><i class="fab fa-instagram"></i></span><a class="item" target="_blank" href="https://www.instagram.com/rh.jihan/">&nbsp;Instagram</a></li>
-                        <li class="list"><span class="fa-li"><i class="fab fa-pinterest-square"></i></span><a class="item" target="_blank" href="https://www.pinterest.com/RHJihan/">&nbsp;Pinterest</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </header>
-         <section>
-            <h1 style="color:#fcba03; line-height: 0.5;">
-               Education
-            </h1>
-            <hr style="border: 1px solid #fcba03;">
-            <span style="color:#ffffff;">Bachelor of Science in Engineering</span>
-            <div style="margin-bottom: 20px; line-height: 1.4;padding-left: 30px;"><a class="alias" target="_blank" href="https://en.wikipedia.org/wiki/Khulna_University_of_Engineering_%26_Technology">Khulna University of Engineering & Technology (KUET)</a><br>
-               <span style="color:grey;">Department of Mechanical Engineering (2k18)</span>
-            </div>
-            <span style="color:#ffffff;">Higher Secondary School Certificate</span>
-            <div style="margin-bottom: 20px; line-height: 1.4;padding-left: 30px;"><a class="alias" target="_blank" href="https://en.wikipedia.org/wiki/Cantonment_Public_School_and_College,_Rangpur">Cantonment Public School and College, Rangpur</a><br>
-               <span style="color:grey;">HSC 2018 (Batch: 36th)</span>
-            </div>
-            <span style="color:#ffffff;">Secondary School Certificate</span>
-            <div style="margin-bottom: 20px; line-height: 1.4;padding-left: 30px;"><a class="alias" target="_blank" href="https://en.wikipedia.org/wiki/Rangpur_Zilla_School">Rangpur Zilla School</a><br>
-               <span style="color:grey;">Batch: 2016</span>
-            </div>
-            <h1 style="color:#fcba03; line-height: 0.5;padding-top: 30px;">
-               Projects
-            </h1>
-            <hr style="border: 1px solid #fcba03;">
-            <div style="margin-bottom: 20px; line-height: 1.4"><a class="alias" target="_blank" href="https://rhjihan.github.io/Otobi_Keyboard/">Otobi Keyboard</a><br>
-               <span style="color:grey;">Bangla Bijoy-like layout for Windows, Linux and Android.</span>
-            </div>
-            <div style="margin-bottom: 20px; line-height: 1.4"><a class="alias" target="_blank" href="https://rhjihan.github.io/Oishik_Layout/">Oishik Layout</a><br>
-               <span style="color:grey;">A free Bangla computer keyboard layout for more efficiency.</span>
-            </div>
-         </section>
+   <body class="bn">
+      <div class="marquee">
+         <p>The quieter you become, the more you are able to hear.</p>
       </div>
+      <div style="padding-bottom: 30px;">
+         <label class="switch" style="float: right;">
+         <input id="toggle-event" type="checkbox" checked data-toggle="toggle" data-size="large" data-onstyle="info" data-offstyle="info" data-true="bn" data-false="en" >
+         <span class="slider round"></span>
+         </label>
+      </div>
+      <!-- Bangla start -->
+      <div lang="bn">
+         <div class="wrapper">
+            <header>
+               <p style="line-height: 1.4;"><i class="fas fa-quote-left fa-2x fa-pull-left"></i>আপনি এই পাতায় এসেছেন কারণ সম্ভবত আপনি মেসেঞ্জারে আমাকে মেসেজ দিয়েছেন এবং একটি স্বয়ংক্রিয় মেসেজ পেয়েছেন; যেখানে বলা ছিল যে, আমি এই মুহূর্তে মেসেঞ্জারে উপলব্ধ নই।</p>
+               <div><i class="fas fa-thumbs-up"></i>&nbsp;&nbsp;হ্যাঁ, বটের পাঠানো স্বয়ংক্রিয় মেসেজটি সঠিক।</div>
+               <br>
+               <div style="color: #037ef3; margin-bottom: 20px; line-height: 1.4"><i class="fas fa-star"></i>&nbsp;&nbsp;জরুরি প্রয়োজনে আমাকে ফোনে কল করুন। যদি আমি ফোন রিসিভ না করি তাহলে একটি এসএমএস দিয়ে রাখতে পারেন।<br></div>
+            </header>
+            <section>
+               <h3 style="color:#fcba03; line-height: 1.1;">
+                  আমি এই মুহূর্তে মেসেঞ্জারে উপলব্ধ না থাকার কিছু সম্ভাব্য কারণ:
+               </h3>
+               <hr style="border: 1px solid #fcba03;">
+               <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>আপনি আমাকে আমার ঘুমানোর সময়ে মেসেজ দিয়েছেন (১২:০০ AM – ০৮:৩০ AM GMT+6).</li>
+                  <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>আমি এই মুহূর্তে অ্যান্ড্রয়েড এবং ল্যাপটপ থেকে দূরে আছি।</li>
+                  <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>আমি অন্য একটি কাজ করছি; তাই কোনো মেসেজের উত্তর না দেওয়ার সিদ্ধান্ত নিয়েছি।</li>
+                  <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>আমি মেসেজ চেক করতে ভুলে গেছি।</li>
+                  <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>আমি একটি বিশেষ কারণে মেসেজের উত্তর না দেওয়ার সিদ্ধান্ত নিয়েছি।</li>
+                  <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>আমি ক্লাসে কিংবা পরীক্ষার হলে আছি।</li>
+               </ul>
+               <div style="color: grey; margin-bottom: 20px; line-height: 1.4"><i class="far fa-clock"></i>&nbsp;&nbsp;শঙ্কিত হবেন না। আমি তাড়াতাড়ি ফিরে আসব এবং আপনার মেসেজের উত্তর দিব। আমি ফিরে আসার পর্যন্ত অপেক্ষা না করতে চাইলে আপনি আপনার জিজ্ঞাস্য পাঠিয়ে রাখতে পারেন। আপনার ধৈর্য আমার কাছে মূল্যবান।
+               </div>
+               <div style="color: grey; margin-bottom: 20px; line-height: 1.4"><i class="fas fa-info-circle"></i>&nbsp;&nbsp;মনে রাখবেন, আমি কেবল অবসর কাটানোর একটি মাধ্যম হিসেবে ফেসবুক এবং মেসেঞ্জার ব্যবহার করি। তাই মেসেজের উত্তর না দেওয়ার জন্য আমাকে দোষারোপ করবেন না।
+               </div>
+               <div class="para" style="margin-top: -5px; margin-bottom: 5px; font-size: 15px;">
+                  বিষয়টি বোঝার জন্য ধন্যবাদ<br>–
+                  <a class="grey" style="font-family: 'Cookie', cursive; font-size: 22px;" target="_blank" href="https://rhjihan.github.io">Jihan</a>
+               </div>
+            </section>
+         </div>
+      </div>
+      <!-- Bangla end -->
+      <!-- English start -->
+      <div lang="en">
+         <!-- English start -->
+         <div class="wrapper">
+            <header>
+               <pstyle="line-height: 1.4;"><i class="fas fa-quote-left fa-2x fa-pull-left"></i>You're visiting this page because you probably messaged me in Messenger and got an automated-reply saying that I am not available right now.</p>
+               <div><i class="fas fa-thumbs-up"></i>&nbsp;&nbsp;Yes, the bot was right.</div>
+               <br>
+               <div style="color: #037ef3; margin-bottom: 20px; line-height: 1.4"><i class="fas fa-star"></i>&nbsp;&nbsp;In urgent matters, please consider calling me over the phone. If I don't receive your phone call, you can leave an SMS.<br></div>
+            </header>
+            <section>
+               <h3 style="color:#fcba03; line-height: 1.1;">
+                  Here're the possible causes of why I am currently not available in Messenger:
+               </h3>
+               <hr style="border: 1px solid #fcba03;">
+               <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>You messaged me during my sleeping time (12:00 AM – 08:30 AM GMT+6).</li>
+                  <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>I am away from my Android and laptop.</li>
+                  <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>I am doing another work and that's why decided not to reply to messages.</li>
+                  <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>I forgot to check messages.</li>
+                  <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>I decided not to reply to messages for an obvious reason.</li>
+                  <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>I am in class or an examination hall.</li>
+               </ul>
+               <div style="color: grey; margin-bottom: 20px; line-height: 1.4"><i class="far fa-clock"></i>&nbsp;&nbsp;Don't be afraid. I will become available shortly and reply to your messages. You can leave your queries in advance so that you won't have to wait till my availability. I appreciate your patience.
+               </div>
+               <div style="color: grey; margin-bottom: 20px; line-height: 1.4"><i class="fas fa-info-circle"></i>&nbsp;&nbsp;Note that I use Facebook and Messenger as leisure activities only. So, don't blame me for not replying.
+               </div>
+               <div class="para" style="margin-top: -5px; margin-bottom: 5px; font-size: 15px;">
+                  Thank you for understanding.<br>–
+                  <a class="grey" style="font-family: 'Cookie', cursive; font-size: 22px;" target="_blank" href="https://rhjihan.github.io">Jihan</a>
+               </div>
+            </section>
+         </div>
+      </div>
+      <!-- English end -->
    </body>
 </html>
