@@ -8,11 +8,6 @@
       <meta name="Description" content="Did you message me in Messenger and get an automated-reply? Find out some possible causes for happening this.">
       <meta name="author" content="Md. Rifat Hasan Jihan">
       <meta name="keywords" content="rhjihan, portfolio, messenger, facebook, unavailable">
-      <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Coda&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-      <script src="https://kit.fontawesome.com/f83b4b844c.js" crossorigin="anonymous"></script>
       <meta property="og:title" content="Possible reasons for my unavailability in Messenger">
       <meta property="og:description" content="Did you message me in Messenger and get an automated-reply? Find out some possible causes for happening this.">
       <meta property="og:locale" content="en_US" />
@@ -20,16 +15,21 @@
       <meta property="og:image" content="https://rhjihan.github.io/elements/info_thumbnail.jpg" />
       <meta property="og:image:width" content="2400" />
       <meta property="og:image:height" content="1260" />
+      <meta property="og:url" content="https://rhjihan.github.io/unavailable.html">
+      <meta property="og:site_name" content="Possible reasons for my unavailability in Messenger">
       <meta name="twitter:card" content="summary_large_image">
       <meta name="twitter:creator" content="@RH_Jihan">
       <meta name="twitter:title" content="Possible reasons for my unavailability in Messenger">
       <meta name="twitter:description" content="Did you message me in Messenger and get an automated-reply? Find out some possible causes for happening this.">
       <meta name="twitter:image" content="https://rhjihan.github.io/elements/info_thumbnail.jpg">
       <link rel="canonical" href="https://rhjihan.github.io/unavailable.html">
-      <meta property="og:url" content="https://rhjihan.github.io/unavailable.html">
-      <meta property="og:site_name" content="Possible reasons for my unavailability in Messenger">
       <link rel="shortcut icon" href="elements/exclamation.ico">
       <link rel="stylesheet" href="elements/style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Coda&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/f83b4b844c.js" crossorigin="anonymous"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>     
       <script>
          $(function() {
@@ -62,56 +62,51 @@
          body.en :lang(bn){
          display: none;
          }
-         .switch {
-         position: relative;
-         display: inline-block;
-         width: 60px;
-         height: 34px;
+         /* Lang switch */
+         .langswitch {
+         position: relative; width: 70px;
+         -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
          }
-         .switch input { 
-         opacity: 0;
-         width: 0;
-         height: 0;
+         .langswitch-checkbox {
+         display: none;
          }
-         .slider {
-         position: absolute;
-         cursor: pointer;
-         top: 0;
-         left: 0;
-         right: 0;
-         bottom: 0;
-         background-color: grey;
-         -webkit-transition: .4s;
-         transition: .4s;
-         border-radius: 34px;
+         .langswitch-label {
+         display: block; overflow: hidden; cursor: pointer;
+         border-radius: 6px;
          }
-         .slider:before {
-         position: absolute;
-         text-align: center;
-         font-size: 10px;
-         color: black;
-         content: "bn";
-         height: 26px;
-         width: 26px;
-         left: 4px;
-         bottom: 4px;
-         background-color: white;
-         -webkit-transition: .4s;
-         transition: .4s;
-         border-radius: 50%;
+         .langswitch-inner {
+         display: block; width: 200%; margin-left: -100%;
+         transition: margin 0.3s ease-in 0s;
          }
-         input:checked + .slider {
-         background-color: grey;
+         .langswitch-inner:before, .langswitch-inner:after {
+         display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+         font-size: 12px; color: white; 
+         box-sizing: border-box;
          }
-         input:focus + .slider {
-         box-shadow: 0 0 1px #2196F3;
+         .langswitch-inner:before {
+         content: "English";
+         padding-left: 10px;
+         background-color: grey; color: white;
          }
-         input:checked + .slider:before {
-         -webkit-transform: translateX(26px);
-         -ms-transform: translateX(26px);
-         transform: translateX(26px);
-         color: black;
-         content: "en";
+         .langswitch-inner:after {
+         content: "বাংলা";
+         padding-right: 10px;
+         background-color: grey; color: white;
+         text-align: right;
+         }
+         .langswitch-switch {
+         display: block; width: 10px; margin: 2px;
+         background: white;
+         position: absolute; top: 0; bottom: 0;
+         right: 56px;
+         border-radius: 6px;
+         transition: all 0.3s ease-in 0s; 
+         }
+         .langswitch-checkbox:checked + .langswitch-label .langswitch-inner {
+         margin-left: 0;
+         }
+         .langswitch-checkbox:checked + .langswitch-label .langswitch-switch {
+         right: 0px; 
          }
       </style>
    </head>
@@ -120,10 +115,13 @@
          <p>The quieter you become, the more you are able to hear.</p>
       </div>
       <div style="padding-bottom: 30px;">
-         <label class="switch" style="float: right;">
-         <input id="toggle-event" type="checkbox" checked data-toggle="toggle" data-size="large" data-onstyle="info" data-offstyle="info" data-true="en" data-false="bn" >
-         <span class="slider round"></span>
-         </label>
+         <div class="langswitch" style="float:right; ">
+            <input type="checkbox" name="langswitch" class="langswitch-checkbox" id="toggle-event" checked data-toggle="toggle" data-size="large" data-onstyle="info" data-offstyle="info" data-true="en" data-false="bn" >
+            <label class="langswitch-label" for="toggle-event">
+            <span class="langswitch-inner"></span>
+            <span class="langswitch-switch"></span>
+            </label>
+         </div>
       </div>
       <!-- English start -->
       <div lang="en">
@@ -179,7 +177,7 @@
                   <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>আমি অন্য একটি কাজ করছি; তাই কোনো মেসেজের উত্তর না দেওয়ার সিদ্ধান্ত নিয়েছি।</li>
                   <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>আমি মেসেজ চেক করতে ভুলে গেছি।</li>
                   <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>আমি একটি বিশেষ কারণে মেসেজের উত্তর না দেওয়ার সিদ্ধান্ত নিয়েছি।</li>
-                  <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>আমি ক্লাসে কিংবা পরীক্ষার হলে আছি।</li>
+                  <li><span class="fa-li"><i class="fas fa-exclamation-circle"></i></span>আমি ক্লাসে কিংবা পরীক্ষাকক্ষে আছি।</li>
                </ul>
                <div style="color: grey; margin-bottom: 20px; line-height: 1.4"><i class="far fa-clock"></i>&nbsp;&nbsp;শঙ্কিত হবেন না। আমি তাড়াতাড়ি ফিরে আসব এবং আপনার মেসেজের উত্তর দিব। আমি ফিরে আসার পর্যন্ত অপেক্ষা না করতে চাইলে আপনি আপনার জিজ্ঞাস্য পাঠিয়ে রাখতে পারেন। আপনার ধৈর্য আমার কাছে মূল্যবান।
                </div>
