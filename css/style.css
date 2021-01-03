@@ -446,10 +446,9 @@ select {
 
 .home {
   min-height: 100vh;
-  -ms-flex: 0 0 100%;
-  flex: 0 0 100%;
-  /* display: -ms-flexbox;
-  display: flex; */
+  min-height: -webkit-fill-available;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .home .intro {
