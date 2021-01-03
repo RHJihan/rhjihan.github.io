@@ -214,10 +214,3 @@ document.querySelector(".toggle-style-switcher").addEventListener("click", funct
   }
   isDark = !isDark;
 })
-
-window.addEventListener("load",function() {
-  setTimeout(function(){
-      // This hides the address bar:
-      window.scrollTo(0, 1);
-  }, 0);
-});
