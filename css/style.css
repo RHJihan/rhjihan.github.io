@@ -445,7 +445,7 @@ select {
 /* Home Section */
 
 .home {
-  min-height: auto;
+  min-height: 100vh;
   display: -ms-flexbox;
   display: flex;
 }
