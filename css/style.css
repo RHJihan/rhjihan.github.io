@@ -541,14 +541,11 @@ select {
 
 /* About Section */
 
-.about{
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
-}
 .about .about-content {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
+  max-height: -webkit-fill-available;
 }
 
 .about .about-content .about-text {
