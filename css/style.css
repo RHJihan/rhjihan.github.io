@@ -446,7 +446,7 @@ select {
 
 .home {
   min-height: 100vh;
-
+  min-height: -webkit-fill-available;
   display: -ms-flexbox;
   display: flex;
 }
