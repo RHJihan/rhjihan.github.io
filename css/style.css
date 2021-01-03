@@ -6,15 +6,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@600;700;800&display=swap');
 /* General Style */
 html {
-  height: 100vh; 
+  overflow: scroll;
+  overflow-x: hidden;
 }
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 body {
   margin: 0;
   line-height: 1.5;
   font-size: 16px;
   font-family: "Montserrat", "Baloo Da 2", sans-serif;
   font-weight: 400;
-  height: 100%;
 }
 
 * {
