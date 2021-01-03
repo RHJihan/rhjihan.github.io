@@ -203,7 +203,6 @@ function asideSectionTogglerBtn() {
   }
 }
 
-
 // Dark Mode Toggle Button
 var isDark = true;
 document.querySelector(".toggle-style-switcher").addEventListener("click", function () {
