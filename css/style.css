@@ -445,8 +445,10 @@ select {
 /* Home Section */
 
 .home {
-  min-height: 100vh;
-
+  min-height: auto;
+  /* display: -ms-flexbox;
+  display: flex;
+  position: sticky; */
 }
 
 .home .intro {
