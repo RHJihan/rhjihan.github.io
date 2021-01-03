@@ -446,9 +446,8 @@ select {
 
 .home {
   min-height: auto;
-  /* display: -ms-flexbox;
+  display: -ms-flexbox;
   display: flex;
-  position: sticky; */
 }
 
 .home .intro {
