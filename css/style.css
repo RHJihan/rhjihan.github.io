@@ -1,18 +1,28 @@
 /*Font Awesome Free Icon*/
+
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
 /*Google fonts*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rubik:500,700,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@600;700;800&display=swap');
-/* General Style */
-html {
-  height: 100vh; 
+
+/*local font*/
+@font-face {
+  font-family: Shurjo;
+  src: url(../elements/shurjo.woff2)
 }
+
+/* General Style */
+
+html {
+  height: 100vh;
+}
+
 body {
   margin: 0;
   line-height: 1.5;
   font-size: 16px;
-  font-family: "Montserrat", "Baloo Da 2", sans-serif;
+  font-family: "Montserrat", "Shurjo", sans-serif;
   font-weight: 400;
   height: 100%;
 }
@@ -25,8 +35,7 @@ body {
   box-sizing: border-box;
 }
 
-::before,
-::after {
+::before, ::after {
   box-sizing: border-box;
 }
 
@@ -35,9 +44,7 @@ a {
   color: #00c88f;
 }
 
-input,
-textarea,
-select {
+input, textarea, select {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -79,7 +86,6 @@ select {
     -moz-transform: translateX(100%);
     -o-transform: translateX(100%);
   }
-
   100% {
     transform: translateX(0%);
     -webkit-transform: translateX(0%);
@@ -95,7 +101,6 @@ select {
     -moz-transform: translateX(100%);
     -o-transform: translateX(100%);
   }
-
   100% {
     transform: translateX(0%);
     -webkit-transform: translateX(0%);
@@ -111,7 +116,6 @@ select {
     -moz-transform: translateX(100%);
     -o-transform: translateX(100%);
   }
-
   100% {
     transform: translateX(0%);
     -webkit-transform: translateX(0%);
@@ -127,7 +131,6 @@ select {
     -moz-transform: translateX(100%);
     -o-transform: translateX(100%);
   }
-
   100% {
     transform: translateX(0%);
     -webkit-transform: translateX(0%);
@@ -227,6 +230,7 @@ select {
 }
 
 /* Preloader */
+
 .preloader {
   background-color: #f9fffd;
   position: fixed;
@@ -265,7 +269,6 @@ select {
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
@@ -277,7 +280,6 @@ select {
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
@@ -581,7 +583,7 @@ select {
 
 .about .about-content .personal-info .info-item p {
   font-weight: 600;
-  padding: 10px 0;
+  padding: 8px 0;
   font-size: 16px;
   margin: 0;
   color: #302e4d;
@@ -589,6 +591,53 @@ select {
 }
 
 .about .about-content .personal-info .info-item p span {
+  font-weight: 400;
+  color: #504e70;
+  margin-left: 4px;
+  display: inline-block;
+}
+
+.about .about-content .name-beng {
+  -ms-flex: 0 0 70%;
+  flex: 0 0 70%;
+  max-width: 70%;
+  margin-left: 16px;
+  margin-top: 30px;
+  margin-bottom: -40px;
+}
+
+.about .about-content .name-beng p {
+  font-weight: 600;
+  padding: 8px 0;
+  font-size: 16px;
+  margin: 0;
+  color: #302e4d;
+  border-bottom: 1px solid #e8dfec;
+}
+
+.about .about-content .name-beng p span {
+  font-weight: 400;
+  color: #504e70;
+  margin-left: 4px;
+  display: inline-block;
+}
+
+.about .about-content .language .about-text .lang-item {
+  -ms-flex: 0 0 70%;
+  flex: 0 0 70%;
+  max-width: 70%;
+}
+
+.about .about-content .language .about-text .lang-item p {
+  font-weight: 600;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 0;
+  color: #302e4d;
+  border-bottom: 1px solid #e8dfec;
+}
+
+.about .about-content .language .about-text .lang-item p span {
   font-weight: 400;
   color: #504e70;
   margin-left: 4px;
@@ -666,6 +715,10 @@ select {
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
+  margin-top: 30px;
+}
+.about .about-content .language {
+
   margin-top: 30px;
 }
 
@@ -790,18 +843,14 @@ select {
   -webkit-transition: all 0.3s ease;
 }
 
-.wlinks .wlinks-item .wlinks-item-inner .icon .fa,
-.wlinks .wlinks-item .wlinks-item-inner .icon .fas,
-.wlinks .wlinks-item .wlinks-item-inner .icon .fab {
+.wlinks .wlinks-item .wlinks-item-inner .icon .fa, .wlinks .wlinks-item .wlinks-item-inner .icon .fas, .wlinks .wlinks-item .wlinks-item-inner .icon .fab {
   font-size: 40px;
   line-height: 60px;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
 }
 
-.wlinks .wlinks-item .wlinks-item-inner:hover .icon .fa,
-.wlinks .wlinks-item .wlinks-item-inner:hover .icon .fas,
-.wlinks .wlinks-item .wlinks-item-inner:hover .icon .fab {
+.wlinks .wlinks-item .wlinks-item-inner:hover .icon .fa, .wlinks .wlinks-item .wlinks-item-inner:hover .icon .fas, .wlinks .wlinks-item .wlinks-item-inner:hover .icon .fab {
   font-size: 25px;
   color: #ffffff;
 }
@@ -819,7 +868,7 @@ select {
   color: #504e70;
   line-height: 25px;
   margin: 0;
-} 
+}
 
 /* Portfolio Section */
 
@@ -872,7 +921,6 @@ select {
     transform: scale(0.8);
     -webkit-transform: scale(0.8);
   }
-
   100% {
     transform: scale(1);
     -webkit-transform: scale(1);
@@ -885,7 +933,6 @@ select {
     -webkit-transform: scale(0.8);
     opacity: 0;
   }
-
   100% {
     transform: scale(1);
     -webkit-transform: scale(1);
@@ -1011,7 +1058,6 @@ select {
     transform: scale(0.8);
     -webkit-transform: scale(0.8);
   }
-
   100% {
     transform: scale(1);
     -webkit-transform: scale(1);
@@ -1023,7 +1069,6 @@ select {
     transform: scale(0.8);
     -webkit-transform: scale(0.8);
   }
-
   100% {
     transform: scale(1);
     -webkit-transform: scale(1);
@@ -1062,8 +1107,7 @@ select {
   cursor: pointer;
 }
 
-.lightbox .lightbox-controls .prev-item,
-.lightbox .lightbox-controls .next-item {
+.lightbox .lightbox-controls .prev-item, .lightbox .lightbox-controls .next-item {
   position: absolute;
   height: 40px;
   width: 40px;
@@ -1078,14 +1122,12 @@ select {
   -webkit-transition: all 0.3s ease;
 }
 
-.lightbox .lightbox-controls .prev-item:active,
-.lightbox .lightbox-controls .next-item:active {
+.lightbox .lightbox-controls .prev-item:active, .lightbox .lightbox-controls .next-item:active {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
 }
 
-.lightbox .lightbox-controls .prev-item:hover,
-.lightbox .lightbox-controls .next-item:hover {
+.lightbox .lightbox-controls .prev-item:hover, .lightbox .lightbox-controls .next-item:hover {
   transform: scale(1);
   -webkit-transform: scale(1);
 }
@@ -1098,8 +1140,7 @@ select {
   right: 30px;
 }
 
-.lightbox .lightbox-controls .prev-item .fa,
-.lightbox .lightbox-controls .next-item .fa {
+.lightbox .lightbox-controls .prev-item .fa, .lightbox .lightbox-controls .next-item .fa {
   font-size: 32px;
   line-height: 40px;
 }
@@ -1118,8 +1159,7 @@ select {
   display: inline-block;
 }
 
-.contact .contact-info-item .icon .fa,
-.contact .contact-info-item .icon .fab {
+.contact .contact-info-item .icon .fa, .contact .contact-info-item .icon .fab {
   font-size: 40px;
 }
 
@@ -1196,33 +1236,26 @@ select {
   .section .container {
     padding-top: 70px;
   }
-
   .aside .nav-toggler {
     display: -ms-flexbox;
     display: flex;
     left: 25px;
   }
-
   .aside .nav-toggler.open {
     left: 300px;
   }
-
   .aside {
     left: -270px;
   }
-
   .aside.open {
     left: 0;
   }
-
   .section {
     left: 0;
   }
-
   .section.open {
     left: 270px;
   }
-
   .about .about-content .personal-info .info-item p span {
     display: block;
     margin-left: 0;
@@ -1230,9 +1263,7 @@ select {
 }
 
 @media (max-width: 991px) {
-  .wlinks .wlinks-item,
-
-  .portfolio .portfolio-item {
+  .wlinks .wlinks-item, .portfolio .portfolio-item {
     flex: 0 0 50%;
     -ms-flex: 0 0 50%;
     max-width: 50%;
@@ -1240,32 +1271,24 @@ select {
 }
 
 @media (max-width: 767px) {
-  .about .about-content .personal-info,
-  .contact .contact-form .col-6,
-  .wlinks .wlinks-item,
-
-  .about .about-content .skills,
-  .about .about-content .education,
-  .about .about-content .experience {
+  .about .about-content .personal-info, .contact .contact-form .col-6, .wlinks .wlinks-item, .about .about-content .skills, .about .about-content .education, .about .about-content .experience {
     flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     max-width: 100%;
   }
-
   .portfolio .portfolio-filter button {
     margin-bottom: 10px;
   }
 }
 
 @media (max-width: 575px) {
-  .portfolio .portfolio-item,
-  .contact .contact-info-item {
+  .portfolio .portfolio-item, .contact .contact-info-item {
     flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     max-width: 100%;
   }
-  .copyright-text{
-  display: none;
+  .copyright-text {
+    display: none;
   }
 }
 
@@ -1276,8 +1299,7 @@ select {
   display: block;
   width: 100%;
   margin: 0 auto;
-  font-family: "Open Sans", "Helvetica Neue", "Segoe UI", "Calibri", "Arial",
-    sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Segoe UI", "Calibri", "Arial", sans-serif;
   font-size: 18px;
   color: #60666d;
 }
@@ -1307,12 +1329,12 @@ select {
   outline: none;
 }
 
-.select-box__current:focus + .select-box__list {
+.select-box__current:focus+.select-box__list {
   opacity: 1;
   animation-name: none;
 }
 
-.select-box__current:focus + .select-box__list .select-box__option {
+.select-box__current:focus+.select-box__list .select-box__option {
   cursor: pointer;
 }
 
@@ -1338,7 +1360,7 @@ select {
   display: none;
 }
 
-.select-box__input:checked + .select-box__input-text {
+.select-box__input:checked+.select-box__input-text {
   display: block;
 }
 
@@ -1370,8 +1392,7 @@ select {
   background-color: #fff;
 }
 
-.select-box__option:hover,
-.select-box__option:focus {
+.select-box__option:hover, .select-box__option:focus {
   color: #546c84;
   background-color: #fbfbfb;
 }
@@ -1380,7 +1401,6 @@ select {
   from {
     transform: scaleY(1);
   }
-
   to {
     transform: scaleY(0);
   }
