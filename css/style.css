@@ -5,12 +5,8 @@
 /*Google fonts*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rubik:500,700,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;500;600;700&display=swap');
 
-/*local font*/
-@font-face {
-  font-family: Shurjo;
-  src: url(../elements/shurjo.woff2)
-}
 
 /* General Style */
 
@@ -22,7 +18,7 @@ body {
   margin: 0;
   line-height: 1.5;
   font-size: 16px;
-  font-family: "Montserrat", "Shurjo", sans-serif;
+  font-family: "Montserrat", "Noto Serif Bengali", sans-serif;
   font-weight: 400;
   height: 100%;
 }

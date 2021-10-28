@@ -1,7 +1,4 @@
-@font-face {
-    font-family: shurjo;
-    src: url(shurjo.woff2)
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;500;600;700&display=swap');
 
 .marquee {
     color: grey;
