@@ -564,8 +564,8 @@ input, textarea, select {
 .about .about-content .about-text p {
   font-size: 16px;
   line-height: 25px;
-  color: #020203;
-  margin: 0;
+  color: #1b1b1b;
+  margin: 8px;
 }
 
 .about .about-content .about-text p span {
