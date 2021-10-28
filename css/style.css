@@ -568,6 +568,10 @@ input, textarea, select {
   margin: 0;
 }
 
+.about .about-content .about-text p span {
+  font-weight: 700;
+}
+
 .about .about-content .personal-info {
   -ms-flex: 0 0 60%;
   flex: 0 0 60%;
@@ -704,7 +708,7 @@ input, textarea, select {
   color: #302e4d;
 }
 
-.about .about-content .education {
+.about .about-content .edu-work {
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
@@ -819,7 +823,7 @@ input, textarea, select {
   border: 1px solid #dddddd;
   border-radius: 10px;
   padding: 15px 25px;
-  width: 200px;
+  width: 190px;
   text-align: center;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -1263,7 +1267,23 @@ input, textarea, select {
 }
 
 @media (max-width: 991px) {
-  .wlinks .wlinks-item, .portfolio .portfolio-item {
+  .portfolio .portfolio-item {
+    flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 991px) {
+  .wlinks .wlinks-item {
+    flex: 0 0 33.33%;
+    -ms-flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
+
+@media (max-width: 767px) {
+  .wlinks .wlinks-item {
     flex: 0 0 50%;
     -ms-flex: 0 0 50%;
     max-width: 50%;
@@ -1271,7 +1291,7 @@ input, textarea, select {
 }
 
 @media (max-width: 767px) {
-  .about .about-content .personal-info, .contact .contact-form .col-6, .wlinks .wlinks-item, .about .about-content .skills, .about .about-content .education, .about .about-content .experience {
+  .about .about-content .personal-info, .contact .contact-form .col-6, .about .about-content .skills, .about .about-content .edu-work, .about .about-content .experience {
     flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     max-width: 100%;
@@ -1282,7 +1302,7 @@ input, textarea, select {
 }
 
 @media (max-width: 575px) {
-  .portfolio .portfolio-item, .contact .contact-info-item {
+  .portfolio .portfolio-item, .wlinks .wlinks-item, .contact .contact-info-item {
     flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     max-width: 100%;
