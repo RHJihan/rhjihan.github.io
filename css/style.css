@@ -597,7 +597,7 @@ input, textarea, select {
   display: inline-block;
 }
 
-.about .about-content .name-beng {
+.about .about-content .name-full {
   -ms-flex: 0 0 70%;
   flex: 0 0 70%;
   max-width: 70%;
@@ -606,7 +606,7 @@ input, textarea, select {
   margin-bottom: -40px;
 }
 
-.about .about-content .name-beng p {
+.about .about-content .name-full p {
   font-weight: 600;
   padding: 8px 0;
   font-size: 16px;
@@ -615,7 +615,7 @@ input, textarea, select {
   border-bottom: 1px solid #e8dfec;
 }
 
-.about .about-content .name-beng p span {
+.about .about-content .name-full p span {
   font-weight: 400;
   color: #504e70;
   margin-left: 4px;
@@ -654,10 +654,10 @@ input, textarea, select {
 }
 
 .about .about-content .skills {
-  -ms-flex: 0 0 40%;
-  flex: 0 0 40%;
-  max-width: 40%;
-  margin-top: 40px;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-top: 10px;
 }
 
 .about .about-content .skills .skill-item {
@@ -711,6 +711,7 @@ input, textarea, select {
   margin-top: 30px;
 }
 
+
 .about .about-content .experience {
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
@@ -741,7 +742,7 @@ input, textarea, select {
 .about .about-content .timeline .timeline-item {
   position: relative;
   padding-left: 37px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 .about .about-content .timeline .timeline-item::before {
