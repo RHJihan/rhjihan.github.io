@@ -292,7 +292,7 @@ input, textarea, select {
   left: 0;
   top: 0;
   z-index: 11;
-  border-right: 1px solid #dfece0;
+  border-right: 1px solid #dfe8ec;
   /* padding: 30px; */
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -733,7 +733,7 @@ input, textarea, select {
 .about .about-content .timeline {
   background-color: #ffffff;
   padding: 30px 15px;
-  border: 1px solid #dfece0;
+  border: 1px solid #dfe8ec;
   border-radius: 10px;
   position: relative;
   width: 100%;
