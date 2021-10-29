@@ -1234,7 +1234,7 @@ input, textarea, select {
 
 /* Responsive */
 
-@media (max-width: 1199px) {
+@media (max-width: 1280px) {
   .section .container {
     padding-top: 70px;
   }
@@ -1272,7 +1272,7 @@ input, textarea, select {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1080px) {
   .wlinks .wlinks-item {
     flex: 0 0 33.33%;
     -ms-flex: 0 0 33.33%;
@@ -1300,7 +1300,19 @@ input, textarea, select {
 }
 
 @media (max-width: 575px) {
-  .portfolio .portfolio-item, .wlinks .wlinks-item, .contact .contact-info-item {
+  .portfolio .portfolio-item, .contact .contact-info-item {
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .copyright-text {
+    display: none;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .wlinks .wlinks-item {
     flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     max-width: 100%;
