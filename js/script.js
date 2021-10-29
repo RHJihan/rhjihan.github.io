@@ -17,7 +17,7 @@ window.ityped.init(document.querySelector(".iTyped"), {
   strings: [
     "Mechanical Engineering Student",
     "3D Design Expert",
-    "UI/UX Developer",
+    "UI/UX Designer",
     "Website Developer",
     "Graphic Designer",
   ],

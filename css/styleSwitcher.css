@@ -29,7 +29,7 @@
 .style-switcher .toggle-style-switcher .fa {
   font-size: 20px;
   line-height: 43px;
-  color: #00c88f;
+  color: #0477BF;
 }
 
 /* Dark Body */
@@ -101,7 +101,7 @@ body.dark .home .intro h3 {
 body.dark .wlinks .wlinks-item .wlinks-item-inner:hover {
   -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
-  border: 1px solid #00c88f;
+  border: 1px solid #0477BF;
   cursor: pointer;
 }
 
@@ -110,5 +110,5 @@ body.dark .contact .contact-form .form-item .form-control:focus {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
-  border-color: #00c88f;
+  border-color: #0477BF;
 }

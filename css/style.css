@@ -37,7 +37,7 @@ body {
 
 a {
   list-style-type: none;
-  color: #00c88f;
+  color: #0477BF;
 }
 
 input, textarea, select {
@@ -45,7 +45,7 @@ input, textarea, select {
 }
 
 .section {
-  background-color: #f9fffd;
+  background-color:  #f9fdff;
   min-height: 100vh;
   display: block;
   padding: 0 30px;
@@ -228,7 +228,7 @@ input, textarea, select {
 /* Preloader */
 
 .preloader {
-  background-color: #f9fffd;
+  background-color:  #f9fdff;
   position: fixed;
   left: 0;
   top: 0;
@@ -252,7 +252,7 @@ input, textarea, select {
 .preloader .loader {
   height: 40px;
   width: 40px;
-  border: 4px solid #00c88f;
+  border: 4px solid #0477BF;
   border-radius: 50%;
   border-top: 4px solid transparent;
   border-bottom: 4px solid transparent;
@@ -799,6 +799,7 @@ input, textarea, select {
   margin: 0;
 }
 
+
 /* wlinkss Section */
 
 .wlinks .container {
@@ -828,7 +829,7 @@ input, textarea, select {
 .wlinks .wlinks-item .wlinks-item-inner:hover {
   -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
-  border: 1px solid #00c88f;
+  border: 1px solid #0477BF;
   cursor: pointer;
 }
 
@@ -1217,7 +1218,7 @@ input, textarea, select {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
-  border-color: #00c88f;
+  border-color: #0477BF;
 }
 
 .contact .contact-form .form-item textarea.form-control {
