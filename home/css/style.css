@@ -547,10 +547,10 @@ input, textarea, select {
 }
 
 .wlinks .wlinks-item {
-  flex: 0 0 20%;
-  -ms-flex: 0 0 20%;
+  flex: 0 0 10%;
+  -ms-flex: 0 0 10%;
   max-width: 10%;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
   display: -ms-flexbox;
   display: flex;
 }
@@ -674,9 +674,9 @@ input, textarea, select {
 
 @media (max-width: 450px) {
   .wlinks .wlinks-item {
-    flex: 0 0 33.3%;
-    -ms-flex: 0 0 33.3%;
-    max-width: 33.3%;
+    flex: 0 0 33.33%;
+    -ms-flex: 0 0 33.33%;
+    max-width: 33.33%;
   }
   .copyright-text {
     display: none;
