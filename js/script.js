@@ -127,11 +127,10 @@ window.addEventListener("load", function () {
 
 window.ityped.init(document.querySelector(".iTyped"), {
   strings: [
-    "Mechanical Engineering Student",
+    "Mechanical Engineer",
     "3D Design Expert",
-    "UI/UX Designer",
-    "Website Developer",
-    "Graphic Designer",
+    "CAD Designer",
+    "Simulation Expert",
   ],
   loop: true,
   typeSpeed: 100,
