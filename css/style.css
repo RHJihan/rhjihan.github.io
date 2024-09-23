@@ -848,7 +848,7 @@ input, textarea, select {
   -webkit-transition: all 0.3s ease;
 }
 
-.wlinks .wlinks-item .wlinks-item-inner:hover .icon .fa, .wlinks .wlinks-item .wlinks-item-inner:hover .icon .fas, .wlinks .wlinks-item .wlinks-item-inner:hover .icon .fab {
+.wlinks .wlinks-item .wlinks-item-inner:hover .icon .fa, .wlinks .wlinks-item .wlinks-item-inner:hover .icon .fas, .wlinks .wlinks-item .wlinks-item-inner:hover .icon .fa-brands, .wlinks .wlinks-item .wlinks-item-inner:hover .icon .fab {
   font-size: 25px;
   color: #ffffff;
 }
