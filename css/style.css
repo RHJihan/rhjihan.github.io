@@ -841,7 +841,7 @@ input, textarea, select {
   -webkit-transition: all 0.3s ease;
 }
 
-.wlinks .wlinks-item .wlinks-item-inner .icon .fa, .wlinks .wlinks-item .wlinks-item-inner .icon .fas, .wlinks .wlinks-item .wlinks-item-inner .icon .fab {
+.wlinks .wlinks-item .wlinks-item-inner .icon .fa, .wlinks .wlinks-item .wlinks-item-inner .icon .fa-brands, .wlinks .wlinks-item .wlinks-item-inner .icon .fas, .wlinks .wlinks-item .wlinks-item-inner .icon .fab {
   font-size: 40px;
   line-height: 60px;
   transition: all 0.3s ease;
