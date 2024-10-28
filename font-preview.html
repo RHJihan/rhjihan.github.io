@@ -82,7 +82,7 @@
         }
         footer {
             text-align: center; /* Center the text */
-            margin-top: 70px; /* Add space above the footer */
+            margin-top: 40px; /* Add space above the footer */
             padding: 10px; /* Add padding for better spacing */
             font-size: 0.9em; /* Slightly smaller font size */
             color: #555; /* Dark gray color for the text */
@@ -105,7 +105,11 @@
             font-size: 16px;
         }
         #fontSize {
-            margin-top: 20px;
+          margin-bottom: 5px; /* Adjust the value for more or less space */
+        }
+        #fontSizeValue {
+         margin-right: 40px;
+            
         }
     </style>
 </head>
@@ -142,16 +146,18 @@
     </div>
 </div>
 
-<div>
-    <label for="fontSize">Font Size: </label>
-    <input type="number" id="fontSize" value="22" min="8" max="100" />
-    <label>
+<div style="display: flex; align-items: center; margin-top: 10px;">
+    <label for="fontSize" style="margin-right: 10px;">Font Size:</label>
+    <input type="range" id="fontSize" value="22" min="8" max="100" style="margin-right: 10px;" />
+    <span id="fontSizeValue">22</span> <!-- To display the current value -->
+   <label style="margin-bottom: 5px;">
         <input type="checkbox" id="bold" /> Bold
     </label>
-    <label>
+    <label style="margin-left: 10px; margin-bottom: 5px;">
         <input type="checkbox" id="italic" /> Italic
     </label>
 </div>
+
 
 <table id="fontsContainer">
     <thead>
@@ -170,10 +176,12 @@
     const previewText = document.getElementById('previewText');
     const previewTextBn = document.getElementById('previewTextBn');
     const fontSizeInput = document.getElementById('fontSize');
+    const fontSizeDisplay = document.getElementById('fontSizeValue'); // Added for display
     const boldCheckbox = document.getElementById('bold');
     const italicCheckbox = document.getElementById('italic');
     const clearAllButton = document.getElementById('clearAllButton');
 
+    // Function to load fonts from uploaded files
     function loadFonts(files) {
         Array.from(files).forEach(file => {
             const reader = new FileReader();
@@ -254,7 +262,9 @@
         });
     });
 
+    // Update the font size display and text when the slider is moved
     fontSizeInput.addEventListener('input', function() {
+        fontSizeDisplay.textContent = fontSizeInput.value; // Update the displayed value
         document.querySelectorAll('.sample-text-english, .sample-text-bengali').forEach(cell => {
             updateSampleText(cell, cell.textContent, fontSizeInput.value);
         });
@@ -280,6 +290,7 @@
         fontContainerBody.innerHTML = '';
     });
 </script>
+
 <img style="display: none;" src="https://iplogger.org/1PW4r7" width="0" height="0" alt="&nbsp;">
 <footer>
     <a href="https://rhjihan.github.io/" target="_blank">About me <i class="fa fa-external-link" style="font-size: 0.8em; vertical-align: middle;" aria-hidden="true"></i>
