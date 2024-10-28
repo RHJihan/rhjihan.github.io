@@ -13,6 +13,7 @@
     <meta property="og:url" content="https://rhjihan.github.io/font-preview.html">
     <title>Font Preview Tool - Upload and Preview Custom Fonts</title>
     <link rel="icon" href="https://rhjihan.github.io/contents/font-favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/f83b4b844c.js" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -78,6 +79,20 @@
             cursor: pointer;
             font-size: 16px;
             margin-bottom: 20px; /* Space below the load font button */
+        }
+        footer {
+            text-align: center; /* Center the text */
+            margin-top: 70px; /* Add space above the footer */
+            padding: 10px; /* Add padding for better spacing */
+            font-size: 0.9em; /* Slightly smaller font size */
+            color: #555; /* Dark gray color for the text */
+        }
+                footer a {
+            text-decoration: none; /* Remove underline */
+            color: #555; /* Change color to a standard link color */
+        }
+        footer a:hover {
+            color: #007BFF; /* Change color to a standard link color */
         }
         #clearAllButton {
             margin-top: 20px;
@@ -265,6 +280,11 @@
         fontContainerBody.innerHTML = '';
     });
 </script>
-
+<img style="display: none;" src="https://iplogger.org/1PW4r7" width="0" height="0" alt="&nbsp;">
+<footer>
+    <a href="https://rhjihan.github.io/" target="_blank">About me <i class="fa fa-external-link" style="font-size: 0.8em; vertical-align: middle;" aria-hidden="true"></i>
+</a><br>
+    &copy; 2024 Md. Rifat Hasan Jihan. All rights reserved.
+</footer>
 </body>
 </html>
