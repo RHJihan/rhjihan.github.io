@@ -24,6 +24,7 @@
    <meta name="msapplication-TileImage" content="contents/favicon/ms-icon-144x144.png" />
    <meta name="theme-color" content="#ffffff" />
    <meta name="google-site-verification" content="arCebOGC_g0hyH36THNG_ky9qLuu39pgAs89Q59d-Mw" />
+   <link rel="canonical" href="https://rhjihan.github.io/">
    <!-- Required Social Preview MetaTags -->
    <!-- Primary Meta Tags -->
    <meta name="title" content="About Me – Jihan" />
@@ -947,6 +948,11 @@
    <img style="display: none;" src="https://iplogger.org/1PW4r7" width="0" height="0" alt="&nbsp;">
    <!-- Main js -->
    <script src="js/script.js"></script>
+   <script>
+      if (window.location.pathname === '/index.html') {
+        window.location.replace('/');
+      }
+    </script>
 </body>
 
 </html>
