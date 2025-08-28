@@ -1,0 +1,24 @@
+- name: Programming Languages
+  proficient: ["C", "C++", "Java"]
+  worked_with: ["SQL", "Python", "Kotlin", "JavaScript", "Bash"]
+
+- name: Core CS Skills
+  skills: ["Data Structures", "Algorithms", "Graph Theory", "Dynamic Programming", "Number Theory", "Problem Solving"]
+
+- name: Frameworks
+  skills: ["Spring", "Spring Boot", "Hibernate"]
+
+- name: Database
+  skills: ["PostgreSQL", "MySQL"]
+
+- name: Web Technologies
+  skills: ["HTML", "CSS", "REST API", "Thymeleaf"]
+
+- name: Other Technologies
+  skills: ["JPA", "Maven", "Gradle", "MVC", "Git", "GNU/Linux", "LaTeX"]
+
+- name: CAD & Simulation
+  skills: ["Autodesk AutoCAD", "SOLIDWORKS", "Ansys", "KeyShot"]
+
+- name: Languages
+  skills: ["English (Fluent)", "Bengali (Native)"]
