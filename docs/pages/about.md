@@ -29,7 +29,7 @@ ___
 
 
 <p class="text-center">
-{% include elements/button.html link="https://rhjihan.github.io/contents/Md._Rifat_Hasan_Jihan-Resume.pdf" text="Download Résumé" %}
+{% include elements/button.html link="https://drive.google.com/file/d/1K777gzDwuqJJWsxw2CgE5rvvYaQ57QeR/view" text="View Résumé" %}
 </p>
 
 <footer class="mt-auto py-3 text-center">
