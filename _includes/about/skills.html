@@ -1,0 +1,18 @@
+<div class="col-lg">
+
+  <h2 class="mb-3">{{ include.title }}</h2>
+
+  {% for category in include.source %}
+    <h5 class="mt-3">{{ category.name }}</h5>
+    {% if category.proficient %}
+      <p><strong>Proficient:</strong> {{ category.proficient | join: ", " }}</p>
+    {% endif %}
+    {% if category.worked_with %}
+      <p><strong>Worked with:</strong> {{ category.worked_with | join: ", " }}</p>
+    {% endif %}
+    {% if category.skills %}
+      <p>{{ category.skills | join: ", " }}</p>
+    {% endif %}
+  {% endfor %}
+
+</div>
