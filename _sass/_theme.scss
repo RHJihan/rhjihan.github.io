@@ -10,11 +10,12 @@
 
 #theme-toggler::before {
   font-family: "Font Awesome 5 Free"; // FA5 free solid
-  font-weight: 900;                   // solid icons
+  font-weight: 900; // solid icons
   @include themed(content, "\f186", "\f185"); // moon / sun
 }
 
 .navbar-themed {
+
   .navbar-brand,
   .navbar-nav .nav-link.active {
     @include themed(color, $text-black, $text-white);
@@ -33,3 +34,20 @@
   @include themed(background-color, $light, $dark);
 }
 
+[data-theme="light"] .badge-themed {
+  background-color: #e9ecef;
+  /* Bootstrap gray-200 */
+  color: #000;
+}
+
+[data-theme="dark"] .badge-themed {
+  background-color: #3c4346;
+  /* your $dark-300 */
+  color: #fff;
+}
+
+.badge-themed {
+  border-radius: 0.25rem;
+  padding: 0.35em 0.75em;
+  font-weight: 500;
+}
