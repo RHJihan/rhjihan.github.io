@@ -32,6 +32,4 @@ ___
 {% include elements/button.html link="https://drive.google.com/file/d/1K777gzDwuqJJWsxw2CgE5rvvYaQ57QeR/view" text="View Résumé" %}
 </p>
 
-<footer class="mt-auto py-3 text-center">
-  {% include social.html %}
-</footer>
+{% include footer.html %}
