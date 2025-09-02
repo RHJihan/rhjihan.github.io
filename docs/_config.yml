@@ -26,6 +26,7 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Md. Rifat Hasan Jihan
   image             : https://rhjihan.github.io/contents/profile.jpg
+  image_dark        : https://rhjihan.github.io/contents/profile-dark.jpg
 # behance           : your_username
 # dribbble          : your_username
   email             : rhjihan@outlook.com

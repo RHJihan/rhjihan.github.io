@@ -1,6 +1,42 @@
 // Fine Circle Responsive Image
 // Inspired by https://stackoverflow.com/a/6615994/10194811
 
+/* Hide both images by default */
+.light-img,
+.dark-img {
+  display: none !important; /* Ensure inline styles from WOW.js don't override */
+}
+
+/* Show images based on system preference on load */
+@media (prefers-color-scheme: light) {
+  .light-img {
+    display: block !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark-img {
+    display: block !important;
+  }
+}
+
+/* Show images based on JS theme toggle */
+[data-theme="light"] .light-img {
+  display: block !important;
+}
+
+[data-theme="light"] .dark-img {
+  display: none !important;
+}
+
+[data-theme="dark"] .light-img {
+  display: none !important;
+}
+
+[data-theme="dark"] .dark-img {
+  display: block !important;
+}
+
 #container {
   display: inline-block;
   position: relative;
