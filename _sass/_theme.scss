@@ -51,3 +51,12 @@
   padding: 0.35em 0.75em;
   font-weight: 500;
 }
+
+/* Google Form iframe dark mode */
+[data-theme="dark"] iframe[src*="docs.google.com/forms"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+[data-theme="light"] iframe[src*="docs.google.com/forms"] {
+  filter: none;
+}
+
