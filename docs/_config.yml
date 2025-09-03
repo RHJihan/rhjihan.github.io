@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Md. Rifat Hasan Jihan
 description         : >-
-                      Aspiring Software Developer<br>B.Sc. in Mechanical Engineering (KUET) pivoting to Software Development
+                      Software developer specializing in Java and Spring Boot, creating scalable solutions
 baseurl             : ""                            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : RHJihan/rhjihan.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : RHJihan/rhjihan.github.io
