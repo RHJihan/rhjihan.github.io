@@ -1,3 +1,5 @@
+@import "theme";
+
 .timeline-body {
   position: relative;
   border-radius: 0 $rounded-borders $rounded-borders 0;
@@ -35,6 +37,12 @@
       margin: 40px;
       padding-bottom: 20px;
       border-bottom: 1px dashed $secondary;
+
+      .subtitle {
+        margin-top: -5px;
+        margin-bottom: 15px;
+        @include themed(color, #363c43, #aeb5bd);
+      }
 
       .date {
         margin-top: -5px;
