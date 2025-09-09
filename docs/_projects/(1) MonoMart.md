@@ -3,8 +3,9 @@ name: MonoMart
 tools: [Java, Spring Boot, Spring Framework, PostgreSQL, JPA/Hibernate, JWT, Swagger, Maven]
 image: https://static.startuptalky.com/2022/04/Backend-Development-E-commerce-website-StartupTalky.jpg
 description: A modern, single-vendor e-commerce backend application built with Spring Boot 3, PostgreSQL, and JWT authentication.
+link: https://github.com/RHJihan/MonoMart
 ---
-# MonoMart
+
 MonoMart is a modern, single-vendor e-commerce backend application built with **Spring Boot 3**, **PostgreSQL**, and **JWT authentication**. It provides a complete RESTful API for managing products, categories, shopping carts, orders, and user authentication with role-based access control.
 
 ![preview](https://miro.medium.com/v2/resize:fit:3788/format:webp/1*T44BfYTTAI3Dj7B47YtzHw.png)
@@ -116,7 +117,3 @@ curl -X GET http://localhost:8080/api/v1/cart \
 ---
 
 **MonoMart** - Building the future of e-commerce, one API at a time! 🚀
-
-<p class="text-center">
-{% include elements/button.html link="https://github.com/RHJihan/MonoMart" text="<i class='fab fa-github me-2'></i>&nbsp;&nbsp;View on GitHub" %}
-</p>

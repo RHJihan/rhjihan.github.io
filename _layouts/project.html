@@ -1,0 +1,31 @@
+---
+layout: page
+---
+
+<h1><b>{{ page.name }}</b></h1>
+
+<p class="post-metadata text-muted">
+  {% if page.link %}
+    {% if page.link contains "github.com" %}
+      <a class="text-decoration-none no-underline" href="{{ page.link }}">
+        <span class="tag badge rounded-pill text-primary border border-primary px-2 py-1" style="font-size: 0.80rem;">
+          <i class="fab fa-github me-2"></i>&nbsp;&nbsp;View on GitHub
+        </span>
+      </a>
+    {% else %}
+      <a class="text-decoration-none no-underline" href="{{ page.link }}">
+        <span class="tag badge rounded-pill text-primary border border-primary px-2 py-1" style="font-size: 0.80rem;">
+          <i class="fas fa-link me-2"></i>&nbsp;&nbsp;{{ page.link }}
+        </span>
+      </a>
+    {% endif %}
+  {% endif %}
+</p>
+
+{{ content }}
+
+{% if page.comments %}
+<div class="pt-5">
+  {% include blog/disqus.html %}
+</div>
+{% endif %}
