@@ -12,6 +12,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <title>{{ title }}</title>
+
+  {% if site.url != "https://rhjihan.github.io" %}
+  <meta name="robots" content="noindex, nofollow">
+  {% endif %}
+
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rhjihan.github.io" />
   <meta property="og:title" content="Md. Rifat Hasan Jihan | Software Developer" />
@@ -27,7 +33,7 @@
     content="Discover the portfolio of Md. Rifat Hasan Jihan, a software developer specializing in backend development, web technologies, and open-source contributions.">
   <meta name="twitter:image" content="{{ site.site_image | relative_url }}">
 
-  <title>{{ title }}</title>
+
 
   <!-- Primary Meta Tags -->
   <meta name="description"
