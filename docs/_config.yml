@@ -6,6 +6,7 @@ baseurl             : ""                            # Change to empty quotes if 
 repository          : RHJihan/rhjihan.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : RHJihan/rhjihan.github.io
 open_new_tab        : false                         # Opens external URLs in new tab (works for posts, projects and navbar only)
+site_image          : "/contents/thumbnail.jpg"
 
 
 ### Plugins ###
@@ -25,8 +26,8 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Md. Rifat Hasan Jihan
-  image             : https://rhjihan.github.io/contents/profile.jpg
-  image_dark        : https://rhjihan.github.io/contents/profile-dark.jpg
+  image             : "/contents/profile.jpg"
+  image_dark        : "/contents/profile-dark.jpg"
 # behance           : your_username
 # dribbble          : your_username
   email             : rhjihan@outlook.com
