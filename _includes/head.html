@@ -20,7 +20,7 @@
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rhjihan.github.io" />
-  <meta property="og:title" content="Md. Rifat Hasan Jihan | Software Developer" />
+  <meta property="og:title" content="{% if page.url != '/' %}{{ title }} - {% endif %}Md. Rifat Hasan Jihan | Software Developer" />
   <meta property="og:description"
     content="Discover the portfolio of Md. Rifat Hasan Jihan, a software developer specializing in backend development, web technologies, and open-source contributions." />
   <meta property="og:image" content="{{ '/contents/thumbnail.jpg' | absolute_url }}" />
@@ -29,7 +29,7 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:creator" content="@RH_Jihan">
-  <meta name="twitter:title" content="Personal website of Md. Rifat Hasan Jihan">
+  <meta name="twitter:title" content="{% if page.url != '/' %}{{ title }} - {% endif %}Md. Rifat Hasan Jihan | Software Developer" />
   <meta name="twitter:description"
     content="Discover the portfolio of Md. Rifat Hasan Jihan, a software developer specializing in backend development, web technologies, and open-source contributions.">
   <meta name="twitter:image" content="{{ site.site_image | absolute_url }}">
