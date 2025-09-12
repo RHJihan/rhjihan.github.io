@@ -12,24 +12,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{{ title }}</title>
+  <title>{% if page.url != '/' %}{{ title }} - {% endif %}Md. Rifat Hasan Jihan | Software Developer</title>
 
   {% if site.url != "https://rhjihan.github.io" %}
   <meta name="robots" content="noindex, nofollow">
   {% endif %}
 
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://rhjihan.github.io" />
-  <meta property="og:title" content="{% if page.url != '/' %}{{ title }} - {% endif %}Md. Rifat Hasan Jihan | Software Developer" />
+  <meta property="og:url" content="https://rhjihan.github.io{{ page.url }}" />
+  <meta property="og:title"
+    content="{% if page.url != '/' %}{{ title }} - {% endif %}Md. Rifat Hasan Jihan | Software Developer" />
   <meta property="og:description"
     content="Discover the portfolio of Md. Rifat Hasan Jihan, a software developer specializing in backend development, web technologies, and open-source contributions." />
   <meta property="og:image" content="{{ '/contents/thumbnail.jpg' | absolute_url }}" />
   <meta property="og:logo" content="{{ '/contents/favicon/apple-icon-180x180.png' | absolute_url }}" />
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="canonical" href="https://rhjihan.github.io{{ page.url }}">
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:creator" content="@RH_Jihan">
-  <meta name="twitter:title" content="{% if page.url != '/' %}{{ title }} - {% endif %}Md. Rifat Hasan Jihan | Software Developer" />
+  <meta name="twitter:title"
+    content="{% if page.url != '/' %}{{ title }} - {% endif %}Md. Rifat Hasan Jihan | Software Developer" />
   <meta name="twitter:description"
     content="Discover the portfolio of Md. Rifat Hasan Jihan, a software developer specializing in backend development, web technologies, and open-source contributions.">
   <meta name="twitter:image" content="{{ site.site_image | absolute_url }}">
