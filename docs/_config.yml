@@ -13,6 +13,7 @@ site_image          : "/contents/thumbnail.jpg"
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-sitemap
 
 
 ### Navbar Settings ###
@@ -102,6 +103,14 @@ defaults:
       type: "posts"
     values:
       comments: false                                   # Set to true to enable disqus comments
+  - scope:
+      path: "documentation/**"
+    values:
+      sitemap: false
+  - scope:
+      path: "_elements/**"
+    values:
+      sitemap: false
 
 
 ### Exclude from processing ###
