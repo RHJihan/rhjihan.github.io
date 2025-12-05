@@ -8,7 +8,7 @@ link: https://github.com/RHJihan/MonoMart
 
 MonoMart is a modern, single-vendor e-commerce backend application built with **Spring Boot 3**, **PostgreSQL**, and **JWT authentication**. It provides a complete RESTful API for managing products, categories, shopping carts, orders, and user authentication with role-based access control.
 
-![preview](https://localdigitalkit.com/wp-content/uploads/2023/05/ecommerce-marketplace.jpg)
+![preview](https://miro.medium.com/v2/resize:fit:3788/format:webp/1*T44BfYTTAI3Dj7B47YtzHw.png)
 
 ## 🌟 Features
 
