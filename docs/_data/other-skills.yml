@@ -14,11 +14,14 @@
 - name: Web Technologies
   skills: ["HTML", "CSS", "REST API", "Thymeleaf"]
 
+- name: Machine Learning & NLP
+  skills: ["VADER", "NLTK", "TF–IDF", "Bag of Words", "SVM", "Naive Bayes", "Logistic Regression", "Scikit-learn"]
+
 - name: Other Technologies
-  skills: ["JPA", "Maven", "Gradle", "MVC", "Git", "GNU/Linux", "LaTeX"]
+  skills: ["JPA", "Maven", "Gradle", "MVC", "Git", "GNU/Linux", "LaTeX", "Pandas", "NumPy"]
 
 - name: CAD & Simulation
   skills: ["Autodesk AutoCAD", "SOLIDWORKS", "Ansys", "KeyShot"]
 
-- name: Languages
-  skills: ["English (Fluent)", "Bengali (Native)"]
+# - name: Languages
+#   skills: ["English (Fluent)", "Bengali (Native)"]
