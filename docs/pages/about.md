@@ -28,6 +28,13 @@ ___
 ___
 
 
+<h2 class="mb-3">Experience</h2>
+<div class="row">
+{% include about/experience.html %}
+</div>
+
+___
+
 <h2 class="mb-3">Education</h2>
 <div class="row">
 {% include about/timeline.html %}
