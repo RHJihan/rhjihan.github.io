@@ -11,7 +11,7 @@ weight: 1
 <p>Software Developer specializing in backend systems, competitive programming, and open-source contributions.</p>
 
 <p style="line-height: 1.8;">
-Self-taught and highly motivated Mechanical Engineering graduate from KUET with a strong passion for software development. Developed solid programming fundamentals and a consistent track record of solving complex problems independently. Proven ability to continuously learn new technologies, adapt quickly, and tackle complex challenges.
+Self-taught and highly motivated graduate from KUET with a strong passion for software development. Developed solid programming fundamentals and a consistent track record of solving complex problems independently. Proven ability to continuously learn new technologies, adapt quickly, and tackle complex challenges.
 </p>
 <p>
   <strong>Codeforces Max Rating:</strong>
@@ -20,17 +20,16 @@ Self-taught and highly motivated Mechanical Engineering graduate from KUET with 
 
 ___
 
-
+<h2 class="mb-3">Experience</h2>
 <div class="row">
-{% include about/skills.html title="Skills" source=site.data.other-skills %}
+{% include about/experience.html %}
 </div>
 
 ___
 
 
-<h2 class="mb-3">Experience</h2>
 <div class="row">
-{% include about/experience.html %}
+{% include about/skills.html title="Skills" source=site.data.other-skills %}
 </div>
 
 ___
